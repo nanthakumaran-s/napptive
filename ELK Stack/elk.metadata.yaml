@@ -1,0 +1,17 @@
+apiVersion: core.napptive.com/v1alpha1
+kind: ApplicationMetadata
+name: "ELK Stack"
+version: "8.7.0"
+description: Log analytics space with ELK Stack
+keywords:
+  - "elasticsearch"
+  - "logstash"
+  - "kibana"
+  - "OLAP"
+license: "Apache License Version 2.0"
+url: "https://www.elastic.co/what-is/elk-stack"
+doc: "https://www.elastic.co/guide/en/elastic-stack/current/index.html"
+logo:
+  - src: "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/Elastic_NV_logo.svg/800px-Elastic_NV_logo.svg.png" 
+    type: "image/png"
+    size: "150x150"
